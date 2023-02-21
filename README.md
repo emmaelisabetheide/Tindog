@@ -26,6 +26,7 @@ The project is finished and is only deployed to be showed in my portfolio.
 The project is created with:
 - HTML
 - CSS
+- Bootstrap
 
 ## Build and deploy
 ### Run this project locally
