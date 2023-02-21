@@ -12,7 +12,7 @@
 Tindog is a project made together with an online course on Udemy. It is a landing page for a dating app for dogs.
 Course: The Cpmplete 2023 Web Development Bootcamp
 
-#### Live link
+#### Live link https://eeheide-tindog.netlify.app/
 
 ![alt text]()
 
