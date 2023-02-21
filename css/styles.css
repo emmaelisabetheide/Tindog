@@ -1,0 +1,189 @@
+/*------  GENERAL CLASSES ------ */
+
+/* COLOR */
+.background-color-ff4c68 {
+  background-color: #ff4c68;
+}
+.background-color-ef8172 {
+  background-color: #ef8172;
+}
+.color-white {
+  color: #fff;
+}
+.color-grey {
+  color: #8f8f8f;
+}
+
+/* ALIGN */
+.text-align-center {
+  text-align: center;
+}
+
+/* SPACE */
+.padding-7-15 {
+  padding: 7% 15%;
+}
+
+/*------ SPECIFIC CLASSES ------ */
+
+body,
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+/***** HERO SECTION *****/
+#title {
+  padding-bottom: 5%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.header-title {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* NAVIGAITON BAR */
+
+.navbar {
+  padding-bottom: 5.5rem;
+}
+
+.navbar-brand {
+  font-family: "Dosis";
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title img */
+.title-img-box {
+  position: relative;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/***** FEATURES SECTION *****/
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-icons {
+  color: #ef8172;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.features-title {
+  font-size: 1.5rem;
+  font-family: "roboto";
+  font-weight: 500;
+}
+
+.features-text {
+  padding: 5%;
+}
+
+.features-box {
+  padding: 1%;
+}
+
+/***** TESTIMONIALS SECTION *****/
+.testimonial-img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.testimonial-text,
+.pricing-title,
+.card-price {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/***** PRICING SECTION *****/
+#pricing {
+  padding: 100px;
+}
+
+.card-header {
+  padding-bottom: 0;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/***** CTA SECTION *****/
+.btn-download {
+  margin: 3% 1%;
+}
+
+/***** FOOTER SECTION *****/
+.footer-icons {
+  margin-bottom: 20px;
+}
+
+.footer-icon {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer-icon:hover {
+  color: #333;
+}
+
+/******** MEDIA QUERIES ********/
+@media (max-width: 1050px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .download-button {
+    margin-bottom: 6%;
+  }
+}
